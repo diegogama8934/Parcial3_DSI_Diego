@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.space{
+    padding: 10px;
+}
+
+.subtitle{
+    margin-bottom: 10px;
+}
+
+#ipt-add-hw{
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#btn-agregar{
+    padding: 8px 4px;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.horizontal {
+    display: flex;
+}
+
+.process-complete{
+    display: flex;
+    width: 100%;
+}
+
+.editar-eliminar{
+    background-color: #707980;
+    border-style: none;
+    padding: 4px 8px;
+    border-radius: 2px;
+    margin: 2px;
+    color: white;
+}
+
+.right-space{
+    margin-right: auto;
+}
+
+.proceso{
+    width: 49%;
+    padding: 10px;
+}
+
+.completado{
+    width: 49%;
+    padding: 10px;
+}
+
+.check{
+    margin-right: auto;
+}
+
+.half{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
