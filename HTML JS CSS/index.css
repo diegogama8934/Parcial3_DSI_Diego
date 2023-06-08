@@ -51,21 +51,26 @@
     margin-right: auto;
 }
 
-.proceso{
+#proceso{
     width: 49%;
     padding: 10px;
 }
 
-.completado{
+#completado{
     width: 49%;
     padding: 10px;
+}
+
+.complete-item{
+    width: 100%;
+    
 }
 
 .check{
     margin-right: auto;
 }
 
-.half{
+.task{
     display: flex;
     justify-content: space-between;
 }
@@ -78,4 +83,22 @@
 .right-side{
     display: flex;
     align-items: center;
+}
+
+.linea{
+    text-decoration: line-through;
+}
+
+#limpiar-lista{
+    float: left;
+}
+
+.Titulos {
+    display: flex;
+    align-items: center;
+}
+
+.empty{
+    margin-left: 20px;
+    font-size: 20px;
 }
